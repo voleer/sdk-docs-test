@@ -1,6 +1,5 @@
 name: Publish to GitHub Pages
 
-name: ci
 on:
   push:
     branches:

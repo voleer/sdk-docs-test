@@ -1,4 +1,7 @@
-site_name: My Docs
+site_name: Voleer Developer
 
 theme:
   name: material
+  palette:
+    scheme: preference # default | slate
+    primary: blue grey # indigo | blue

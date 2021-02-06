@@ -1,0 +1,16 @@
+# Auto detect text files, keep line endings as LF
+* text=auto eol=lf
+
+# Text files
+*.csv text
+*.md text
+*.pdf diff=astextplain
+
+# Binary files
+*.gif binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.tif binary
+*.tiff binary

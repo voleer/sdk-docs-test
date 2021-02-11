@@ -47,10 +47,6 @@ markdown_extensions:
   # - pymdownx.highlight
   # - pymdownx.superfences
 
-# markdown_extensions:
-#   - pymdownx.highlight
-#   - pymdownx.superfences
-
 extra:
   social:
     - icon: fontawesome/brands/twitter
@@ -64,3 +60,4 @@ copyright: Copyright &copy; 2021 BitTitan, Inc.
 
 repo_url: https://github.com/voleer/sdk-docs-test
 repo_name: voleer/sdk-docs-test
+edit_uri: edit/main/docs/

@@ -9,11 +9,14 @@ nav:
       - signup.md
       - install-cli.md
   - Reference:
-      - 'Technical example': example.md
       - license.md
+      - Markdown:
+        - md/basic.md
+        - md/advanced.md
       - Voleer CLI:
         - cli/overview.md
         - cli/login.md
+      
 
 theme:
   name: material
@@ -41,11 +44,25 @@ extra_css:
   - css/extra.css
 
 markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight      
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - toc:
       permalink: true
       toc_depth: 3
-  # - pymdownx.highlight
-  # - pymdownx.superfences
 
 extra:
   social:

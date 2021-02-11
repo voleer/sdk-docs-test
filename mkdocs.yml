@@ -17,6 +17,7 @@ nav:
 
 theme:
   name: material
+  # custom_dir: overrides  
 
   palette:
     scheme: preference # default | slate
@@ -31,6 +32,11 @@ theme:
   # features:
   #   - search.highlight
 
+    # - header.autohide # Automatically hide header after certain threshold
+
+  logo: images/logo-blue.png
+  favicon: images/favicon-32x32.ico
+
 extra_css:
   - css/extra.css
 
@@ -40,3 +46,21 @@ markdown_extensions:
       toc_depth: 3
   # - pymdownx.highlight
   # - pymdownx.superfences
+
+# markdown_extensions:
+#   - pymdownx.highlight
+#   - pymdownx.superfences
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/voleer
+      name: Voleer on Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/voleer
+      name: Voleer on GitHub
+
+copyright: Copyright &copy; 2021 BitTitan, Inc.
+
+repo_url: https://github.com/voleer/sdk-docs-test
+repo_name: voleer/sdk-docs-test

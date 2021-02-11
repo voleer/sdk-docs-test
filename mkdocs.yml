@@ -1,10 +1,42 @@
 site_name: Voleer Developer
 
+nav:
+  - Home: index.md
+  - About:
+      - 'About Voleer.md': about.md
+      - 'BitTitan': bittitan.md
+  - Getting started:
+      - signup.md
+      - install-cli.md
+  - Reference:
+      - 'Technical example': example.md
+      - license.md
+      - Voleer CLI:
+        - cli/overview.md
+        - cli/login.md
+
 theme:
   name: material
+
   palette:
     scheme: preference # default | slate
     primary: blue grey # indigo | blue
 
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    # - toc.integrate # Display TOC on the left if space allows
+  # Insiders only
+  # features:
+  #   - search.highlight
+
 extra_css:
   - css/extra.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 3
+  # - pymdownx.highlight
+  # - pymdownx.superfences

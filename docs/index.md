@@ -1,5 +1,7 @@
 #  Developing for Voleer
 
+Is very easy!
+
 Put automation to work for you with out-of-the-box tools - or support to build your own. Voleer’s data centers and powerful automation tools work with your technology to enhance visibility and provide more effective management of resources, security, data governance and more.
 
 ![Voleer](https://images.squarespace-cdn.com/content/v1/5e6922809f4c330397d85090/1598037891397-BG6V9RWA23KAK34JWK6A/ke17ZwdGBToddI8pDm48kAk8bHXCIZCenu9Pp_wL5bUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dk7Vsz9C5gPMY998LBA-nPopNamoLI61WCF4RemqoYjcCjLISwBs8eEdxAxTptZAUg/Working_16x9.png)

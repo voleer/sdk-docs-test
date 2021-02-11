@@ -1,3 +1,3 @@
 # License
 
-Information about license goes here.
+Information about license should be located here.

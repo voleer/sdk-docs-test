@@ -5,3 +5,6 @@ theme:
   palette:
     scheme: preference # default | slate
     primary: blue grey # indigo | blue
+
+extra_css:
+  - css/extra.css
